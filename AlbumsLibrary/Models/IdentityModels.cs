@@ -29,5 +29,6 @@ namespace AlbumsLibrary.Models
         {
             return new ApplicationDbContext();
         }
+        public virtual DbSet<Album> Album { get; set; }
     }
 }
